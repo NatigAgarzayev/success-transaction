@@ -30,7 +30,13 @@ img{
 }
 
 .main__cover{
-    width: 90%;
+    width: 400px;
+}
+
+@media(max-width: 400px){
+    .main__cover{
+        width: 350px;
+    }
 }
 
 .main__success{
